@@ -1,14 +1,8 @@
 # Real-Time AI Accompaniment
 
-<p align="center">
-  <a href="https://drive.google.com/drive/folders/1KKQupkoti1squj6vKVpUubwYWhwCmCqf?usp=drive_link">
-    <img src="https://img.shields.io/badge/Listen%20to%20some%20examples-%F0%9F%8E%A7%20Play-white?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=4285F4" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://www.youtube.com/watch?v=rMqet5fySLI">
-    <img src="https://img.shields.io/badge/Check%20a%20live%20demo!-red?style=for-the-badge&logo=youtube&logoColor=white&labelColor=red" />
-  </a>
-</p>
+<div align="center">
+<span style="font-size: 0;"><a href="https://www.youtube.com/watch?v=rMqet5fySLI"><img src="https://img.shields.io/badge/Check%20a%20live%20demo!-▶️%20On%20YouTube-white?style=for-the-badge&logo=youtube&logoColor=white&labelColor=red" /></a> &nbsp; <a href="https://drive.google.com/drive/folders/1KKQupkoti1squj6vKVpUubwYWhwCmCqf?usp=drive_link"><img src="https://img.shields.io/badge/Listen%20to%20some%20examples-%F0%9F%8E%A7%20Play-white?style=for-the-badge&logo=google-drive&logoColor=white&labelColor=4285F4" /></a></span>
+</div>
 
 > **A Real-Time AI Accompanist that listens, understands, and plays with you.**
 
