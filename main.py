@@ -12,7 +12,7 @@ BPM = 120
 STATIC_BPM = 120  # Used when dynamic BPM is disabled
 DEFAULT_KEY = 'C'
 BEATS_PER_BAR = 4.0
-SEQUENCE_LENGTH = 20
+SEQUENCE_LENGTH = 2000000
 
 
 logger = setup_logger()

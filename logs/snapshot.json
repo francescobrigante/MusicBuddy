@@ -1,0 +1,1073 @@
+[
+    {
+        "chord_idx": 2,
+        "target_time": 1768134662.934571,
+        "start_processing": 1768134662.937522,
+        "end_processing": 1768134662.9433799,
+        "processing_latency": 0.005857944488525391,
+        "alignment_jitter": 0.00880885124206543,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 3,
+        "target_time": 1768134664.934571,
+        "start_processing": 1768134664.935932,
+        "end_processing": 1768134664.940356,
+        "processing_latency": 0.004424095153808594,
+        "alignment_jitter": 0.0057849884033203125,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 4,
+        "target_time": 1768134666.934571,
+        "start_processing": 1768134666.93474,
+        "end_processing": 1768134666.937557,
+        "processing_latency": 0.002816915512084961,
+        "alignment_jitter": 0.0029859542846679688,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 5,
+        "target_time": 1768134668.934571,
+        "start_processing": 1768134668.9366589,
+        "end_processing": 1768134668.9393961,
+        "processing_latency": 0.002737283706665039,
+        "alignment_jitter": 0.004825115203857422,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 6,
+        "target_time": 1768134670.934571,
+        "start_processing": 1768134670.939241,
+        "end_processing": 1768134670.9432058,
+        "processing_latency": 0.003964900970458984,
+        "alignment_jitter": 0.008634805679321289,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 7,
+        "target_time": 1768134672.934571,
+        "start_processing": 1768134672.93613,
+        "end_processing": 1768134672.938517,
+        "processing_latency": 0.0023870468139648438,
+        "alignment_jitter": 0.003946065902709961,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 8,
+        "target_time": 1768134674.934571,
+        "start_processing": 1768134674.934738,
+        "end_processing": 1768134674.938891,
+        "processing_latency": 0.004153013229370117,
+        "alignment_jitter": 0.004319906234741211,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 9,
+        "target_time": 1768134676.934571,
+        "start_processing": 1768134676.937758,
+        "end_processing": 1768134676.940211,
+        "processing_latency": 0.0024530887603759766,
+        "alignment_jitter": 0.0056400299072265625,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 10,
+        "target_time": 1768134678.934571,
+        "start_processing": 1768134678.9368918,
+        "end_processing": 1768134678.93875,
+        "processing_latency": 0.0018582344055175781,
+        "alignment_jitter": 0.0041790008544921875,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 11,
+        "target_time": 1768134680.934571,
+        "start_processing": 1768134680.937922,
+        "end_processing": 1768134680.941511,
+        "processing_latency": 0.0035889148712158203,
+        "alignment_jitter": 0.006939888000488281,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 12,
+        "target_time": 1768134682.934571,
+        "start_processing": 1768134682.9380128,
+        "end_processing": 1768134682.9414,
+        "processing_latency": 0.0033872127532958984,
+        "alignment_jitter": 0.006829023361206055,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 13,
+        "target_time": 1768134684.934571,
+        "start_processing": 1768134684.937545,
+        "end_processing": 1768134684.940851,
+        "processing_latency": 0.0033059120178222656,
+        "alignment_jitter": 0.006279945373535156,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 14,
+        "target_time": 1768134686.934571,
+        "start_processing": 1768134686.936981,
+        "end_processing": 1768134686.939569,
+        "processing_latency": 0.002588033676147461,
+        "alignment_jitter": 0.004997968673706055,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 15,
+        "target_time": 1768134688.934571,
+        "start_processing": 1768134688.939594,
+        "end_processing": 1768134688.94116,
+        "processing_latency": 0.0015659332275390625,
+        "alignment_jitter": 0.006588935852050781,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 16,
+        "target_time": 1768134690.934571,
+        "start_processing": 1768134690.939302,
+        "end_processing": 1768134690.943351,
+        "processing_latency": 0.004049062728881836,
+        "alignment_jitter": 0.00878000259399414,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 17,
+        "target_time": 1768134692.934571,
+        "start_processing": 1768134692.935484,
+        "end_processing": 1768134692.938215,
+        "processing_latency": 0.0027310848236083984,
+        "alignment_jitter": 0.0036439895629882812,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 18,
+        "target_time": 1768134694.934571,
+        "start_processing": 1768134694.936382,
+        "end_processing": 1768134694.93943,
+        "processing_latency": 0.003047943115234375,
+        "alignment_jitter": 0.004858970642089844,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 19,
+        "target_time": 1768134696.934571,
+        "start_processing": 1768134696.9354591,
+        "end_processing": 1768134696.937711,
+        "processing_latency": 0.002251863479614258,
+        "alignment_jitter": 0.003139972686767578,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 20,
+        "target_time": 1768134698.934571,
+        "start_processing": 1768134698.9346151,
+        "end_processing": 1768134698.9381802,
+        "processing_latency": 0.003565073013305664,
+        "alignment_jitter": 0.003609180450439453,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 21,
+        "target_time": 1768134700.934571,
+        "start_processing": 1768134700.938821,
+        "end_processing": 1768134700.940876,
+        "processing_latency": 0.002054929733276367,
+        "alignment_jitter": 0.00630497932434082,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 22,
+        "target_time": 1768134702.934571,
+        "start_processing": 1768134702.936074,
+        "end_processing": 1768134702.939703,
+        "processing_latency": 0.003628969192504883,
+        "alignment_jitter": 0.005131959915161133,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 23,
+        "target_time": 1768134704.934571,
+        "start_processing": 1768134704.9383209,
+        "end_processing": 1768134704.940455,
+        "processing_latency": 0.002134084701538086,
+        "alignment_jitter": 0.005883932113647461,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 24,
+        "target_time": 1768134706.934571,
+        "start_processing": 1768134706.9359272,
+        "end_processing": 1768134706.93948,
+        "processing_latency": 0.0035529136657714844,
+        "alignment_jitter": 0.004909038543701172,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 25,
+        "target_time": 1768134708.934571,
+        "start_processing": 1768134708.937719,
+        "end_processing": 1768134708.941631,
+        "processing_latency": 0.0039119720458984375,
+        "alignment_jitter": 0.007060050964355469,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 26,
+        "target_time": 1768134710.934571,
+        "start_processing": 1768134710.939019,
+        "end_processing": 1768134710.941897,
+        "processing_latency": 0.002877950668334961,
+        "alignment_jitter": 0.007325887680053711,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 27,
+        "target_time": 1768134712.934571,
+        "start_processing": 1768134712.9380648,
+        "end_processing": 1768134712.944782,
+        "processing_latency": 0.006717205047607422,
+        "alignment_jitter": 0.010210990905761719,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 28,
+        "target_time": 1768134714.934571,
+        "start_processing": 1768134714.93524,
+        "end_processing": 1768134714.9400709,
+        "processing_latency": 0.004830837249755859,
+        "alignment_jitter": 0.005499839782714844,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 29,
+        "target_time": 1768134716.934571,
+        "start_processing": 1768134716.9354398,
+        "end_processing": 1768134716.9383721,
+        "processing_latency": 0.002932310104370117,
+        "alignment_jitter": 0.003801107406616211,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 30,
+        "target_time": 1768134718.934571,
+        "start_processing": 1768134718.935402,
+        "end_processing": 1768134718.938132,
+        "processing_latency": 0.002730131149291992,
+        "alignment_jitter": 0.0035610198974609375,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 31,
+        "target_time": 1768134720.934571,
+        "start_processing": 1768134720.935489,
+        "end_processing": 1768134720.937723,
+        "processing_latency": 0.0022339820861816406,
+        "alignment_jitter": 0.0031518936157226562,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 32,
+        "target_time": 1768134722.934571,
+        "start_processing": 1768134722.9367712,
+        "end_processing": 1768134722.9390929,
+        "processing_latency": 0.0023217201232910156,
+        "alignment_jitter": 0.004521846771240234,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 33,
+        "target_time": 1768134724.934571,
+        "start_processing": 1768134724.936312,
+        "end_processing": 1768134724.939199,
+        "processing_latency": 0.0028870105743408203,
+        "alignment_jitter": 0.00462794303894043,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 34,
+        "target_time": 1768134726.934571,
+        "start_processing": 1768134726.935447,
+        "end_processing": 1768134726.938155,
+        "processing_latency": 0.002707958221435547,
+        "alignment_jitter": 0.0035839080810546875,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 35,
+        "target_time": 1768134728.934571,
+        "start_processing": 1768134728.9390578,
+        "end_processing": 1768134728.941448,
+        "processing_latency": 0.002390146255493164,
+        "alignment_jitter": 0.006876945495605469,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 36,
+        "target_time": 1768134730.934571,
+        "start_processing": 1768134730.934635,
+        "end_processing": 1768134730.9373639,
+        "processing_latency": 0.0027289390563964844,
+        "alignment_jitter": 0.002792835235595703,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 37,
+        "target_time": 1768134732.934571,
+        "start_processing": 1768134732.939381,
+        "end_processing": 1768134732.942219,
+        "processing_latency": 0.002838134765625,
+        "alignment_jitter": 0.007647991180419922,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 38,
+        "target_time": 1768134734.934571,
+        "start_processing": 1768134734.935036,
+        "end_processing": 1768134734.938331,
+        "processing_latency": 0.0032949447631835938,
+        "alignment_jitter": 0.0037598609924316406,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 39,
+        "target_time": 1768134736.934571,
+        "start_processing": 1768134736.937407,
+        "end_processing": 1768134736.941345,
+        "processing_latency": 0.003937959671020508,
+        "alignment_jitter": 0.006773948669433594,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 40,
+        "target_time": 1768134738.934571,
+        "start_processing": 1768134738.934793,
+        "end_processing": 1768134738.9375439,
+        "processing_latency": 0.002750873565673828,
+        "alignment_jitter": 0.002972841262817383,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 41,
+        "target_time": 1768134740.934571,
+        "start_processing": 1768134740.93678,
+        "end_processing": 1768134740.939355,
+        "processing_latency": 0.002574920654296875,
+        "alignment_jitter": 0.0047838687896728516,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 42,
+        "target_time": 1768134742.934571,
+        "start_processing": 1768134742.9389,
+        "end_processing": 1768134742.941631,
+        "processing_latency": 0.0027310848236083984,
+        "alignment_jitter": 0.007060050964355469,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 43,
+        "target_time": 1768134744.934571,
+        "start_processing": 1768134744.9389582,
+        "end_processing": 1768134744.942216,
+        "processing_latency": 0.00325775146484375,
+        "alignment_jitter": 0.0076448917388916016,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 44,
+        "target_time": 1768134746.934571,
+        "start_processing": 1768134746.936552,
+        "end_processing": 1768134746.938672,
+        "processing_latency": 0.0021200180053710938,
+        "alignment_jitter": 0.0041010379791259766,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 45,
+        "target_time": 1768134748.934571,
+        "start_processing": 1768134748.939185,
+        "end_processing": 1768134748.940753,
+        "processing_latency": 0.0015680789947509766,
+        "alignment_jitter": 0.006181955337524414,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 46,
+        "target_time": 1768134750.934571,
+        "start_processing": 1768134750.939175,
+        "end_processing": 1768134750.9416692,
+        "processing_latency": 0.002494335174560547,
+        "alignment_jitter": 0.007098197937011719,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 47,
+        "target_time": 1768134752.934571,
+        "start_processing": 1768134752.936618,
+        "end_processing": 1768134752.939866,
+        "processing_latency": 0.003247976303100586,
+        "alignment_jitter": 0.0052950382232666016,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 48,
+        "target_time": 1768134754.934571,
+        "start_processing": 1768134754.9364932,
+        "end_processing": 1768134754.9403431,
+        "processing_latency": 0.0038499832153320312,
+        "alignment_jitter": 0.005772113800048828,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 49,
+        "target_time": 1768134756.934571,
+        "start_processing": 1768134756.935621,
+        "end_processing": 1768134756.939091,
+        "processing_latency": 0.0034699440002441406,
+        "alignment_jitter": 0.004519939422607422,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 50,
+        "target_time": 1768134758.934571,
+        "start_processing": 1768134758.9371,
+        "end_processing": 1768134758.9396338,
+        "processing_latency": 0.0025339126586914062,
+        "alignment_jitter": 0.00506281852722168,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 51,
+        "target_time": 1768134760.934571,
+        "start_processing": 1768134760.937417,
+        "end_processing": 1768134760.941049,
+        "processing_latency": 0.003632068634033203,
+        "alignment_jitter": 0.006478071212768555,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 52,
+        "target_time": 1768134762.934571,
+        "start_processing": 1768134762.9387121,
+        "end_processing": 1768134762.9429572,
+        "processing_latency": 0.00424504280090332,
+        "alignment_jitter": 0.00838613510131836,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 53,
+        "target_time": 1768134764.934571,
+        "start_processing": 1768134764.936895,
+        "end_processing": 1768134764.939583,
+        "processing_latency": 0.002688169479370117,
+        "alignment_jitter": 0.005012035369873047,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 54,
+        "target_time": 1768134766.934571,
+        "start_processing": 1768134766.937611,
+        "end_processing": 1768134766.941256,
+        "processing_latency": 0.0036449432373046875,
+        "alignment_jitter": 0.006685018539428711,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 55,
+        "target_time": 1768134768.934571,
+        "start_processing": 1768134768.93903,
+        "end_processing": 1768134768.9410188,
+        "processing_latency": 0.0019888877868652344,
+        "alignment_jitter": 0.006447792053222656,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 56,
+        "target_time": 1768134770.934571,
+        "start_processing": 1768134770.937962,
+        "end_processing": 1768134770.941279,
+        "processing_latency": 0.0033168792724609375,
+        "alignment_jitter": 0.006707906723022461,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 57,
+        "target_time": 1768134772.934571,
+        "start_processing": 1768134772.937006,
+        "end_processing": 1768134772.940777,
+        "processing_latency": 0.003771066665649414,
+        "alignment_jitter": 0.006206035614013672,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 58,
+        "target_time": 1768134774.934571,
+        "start_processing": 1768134774.935503,
+        "end_processing": 1768134774.938026,
+        "processing_latency": 0.0025229454040527344,
+        "alignment_jitter": 0.003454923629760742,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 59,
+        "target_time": 1768134776.934571,
+        "start_processing": 1768134776.936995,
+        "end_processing": 1768134776.942743,
+        "processing_latency": 0.00574803352355957,
+        "alignment_jitter": 0.008172035217285156,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 60,
+        "target_time": 1768134778.934571,
+        "start_processing": 1768134778.939208,
+        "end_processing": 1768134778.9407659,
+        "processing_latency": 0.0015578269958496094,
+        "alignment_jitter": 0.0061948299407958984,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 61,
+        "target_time": 1768134780.934571,
+        "start_processing": 1768134780.938184,
+        "end_processing": 1768134780.940715,
+        "processing_latency": 0.0025310516357421875,
+        "alignment_jitter": 0.006144046783447266,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 62,
+        "target_time": 1768134782.934571,
+        "start_processing": 1768134782.9351392,
+        "end_processing": 1768134782.937033,
+        "processing_latency": 0.001893758773803711,
+        "alignment_jitter": 0.0024619102478027344,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 63,
+        "target_time": 1768134784.934571,
+        "start_processing": 1768134784.935662,
+        "end_processing": 1768134784.9387252,
+        "processing_latency": 0.003063201904296875,
+        "alignment_jitter": 0.004154205322265625,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 64,
+        "target_time": 1768134786.934571,
+        "start_processing": 1768134786.9358962,
+        "end_processing": 1768134786.9405,
+        "processing_latency": 0.004603862762451172,
+        "alignment_jitter": 0.005928993225097656,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 65,
+        "target_time": 1768134788.934571,
+        "start_processing": 1768134788.93578,
+        "end_processing": 1768134788.938504,
+        "processing_latency": 0.0027239322662353516,
+        "alignment_jitter": 0.003932952880859375,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 66,
+        "target_time": 1768134790.934571,
+        "start_processing": 1768134790.935541,
+        "end_processing": 1768134790.939054,
+        "processing_latency": 0.0035130977630615234,
+        "alignment_jitter": 0.00448298454284668,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 67,
+        "target_time": 1768134792.934571,
+        "start_processing": 1768134792.939423,
+        "end_processing": 1768134792.9430232,
+        "processing_latency": 0.0036001205444335938,
+        "alignment_jitter": 0.008452177047729492,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 68,
+        "target_time": 1768134794.934571,
+        "start_processing": 1768134794.935096,
+        "end_processing": 1768134794.9386392,
+        "processing_latency": 0.0035431385040283203,
+        "alignment_jitter": 0.004068136215209961,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 69,
+        "target_time": 1768134796.934571,
+        "start_processing": 1768134796.938464,
+        "end_processing": 1768134796.941901,
+        "processing_latency": 0.003437042236328125,
+        "alignment_jitter": 0.0073299407958984375,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 70,
+        "target_time": 1768134798.934571,
+        "start_processing": 1768134798.935756,
+        "end_processing": 1768134798.93798,
+        "processing_latency": 0.002223968505859375,
+        "alignment_jitter": 0.0034089088439941406,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 71,
+        "target_time": 1768134800.934571,
+        "start_processing": 1768134800.9353018,
+        "end_processing": 1768134800.939063,
+        "processing_latency": 0.00376129150390625,
+        "alignment_jitter": 0.004492044448852539,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 72,
+        "target_time": 1768134802.934571,
+        "start_processing": 1768134802.934809,
+        "end_processing": 1768134802.938439,
+        "processing_latency": 0.003629922866821289,
+        "alignment_jitter": 0.0038678646087646484,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 73,
+        "target_time": 1768134804.934571,
+        "start_processing": 1768134804.938636,
+        "end_processing": 1768134804.942317,
+        "processing_latency": 0.0036809444427490234,
+        "alignment_jitter": 0.007745981216430664,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 74,
+        "target_time": 1768134806.934571,
+        "start_processing": 1768134806.939393,
+        "end_processing": 1768134806.94147,
+        "processing_latency": 0.002076864242553711,
+        "alignment_jitter": 0.0068988800048828125,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 75,
+        "target_time": 1768134808.934571,
+        "start_processing": 1768134808.936405,
+        "end_processing": 1768134808.938538,
+        "processing_latency": 0.0021331310272216797,
+        "alignment_jitter": 0.0039670467376708984,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 76,
+        "target_time": 1768134810.934571,
+        "start_processing": 1768134810.9385102,
+        "end_processing": 1768134810.941782,
+        "processing_latency": 0.003271818161010742,
+        "alignment_jitter": 0.007210969924926758,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 77,
+        "target_time": 1768134812.934571,
+        "start_processing": 1768134812.936417,
+        "end_processing": 1768134812.940093,
+        "processing_latency": 0.0036759376525878906,
+        "alignment_jitter": 0.005522012710571289,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 78,
+        "target_time": 1768134814.934571,
+        "start_processing": 1768134814.937251,
+        "end_processing": 1768134814.939745,
+        "processing_latency": 0.0024938583374023438,
+        "alignment_jitter": 0.005173921585083008,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 79,
+        "target_time": 1768134816.934571,
+        "start_processing": 1768134816.937866,
+        "end_processing": 1768134816.939734,
+        "processing_latency": 0.0018680095672607422,
+        "alignment_jitter": 0.005162954330444336,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 80,
+        "target_time": 1768134818.934571,
+        "start_processing": 1768134818.938058,
+        "end_processing": 1768134818.940368,
+        "processing_latency": 0.002310037612915039,
+        "alignment_jitter": 0.005796909332275391,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 81,
+        "target_time": 1768134820.934571,
+        "start_processing": 1768134820.934771,
+        "end_processing": 1768134820.93758,
+        "processing_latency": 0.0028090476989746094,
+        "alignment_jitter": 0.0030090808868408203,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 82,
+        "target_time": 1768134822.934571,
+        "start_processing": 1768134822.939549,
+        "end_processing": 1768134822.943438,
+        "processing_latency": 0.0038890838623046875,
+        "alignment_jitter": 0.008867025375366211,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 83,
+        "target_time": 1768134824.934571,
+        "start_processing": 1768134824.9361038,
+        "end_processing": 1768134824.939765,
+        "processing_latency": 0.0036611557006835938,
+        "alignment_jitter": 0.005193948745727539,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 84,
+        "target_time": 1768134826.934571,
+        "start_processing": 1768134826.9372668,
+        "end_processing": 1768134826.940968,
+        "processing_latency": 0.0037012100219726562,
+        "alignment_jitter": 0.0063970088958740234,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 85,
+        "target_time": 1768134828.934571,
+        "start_processing": 1768134828.939143,
+        "end_processing": 1768134828.941264,
+        "processing_latency": 0.0021209716796875,
+        "alignment_jitter": 0.0066928863525390625,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 86,
+        "target_time": 1768134830.934571,
+        "start_processing": 1768134830.9367838,
+        "end_processing": 1768134830.939374,
+        "processing_latency": 0.002590179443359375,
+        "alignment_jitter": 0.0048029422760009766,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 87,
+        "target_time": 1768134832.934571,
+        "start_processing": 1768134832.9352698,
+        "end_processing": 1768134832.938224,
+        "processing_latency": 0.002954244613647461,
+        "alignment_jitter": 0.0036530494689941406,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 88,
+        "target_time": 1768134834.934571,
+        "start_processing": 1768134834.937879,
+        "end_processing": 1768134834.941468,
+        "processing_latency": 0.0035889148712158203,
+        "alignment_jitter": 0.00689697265625,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 89,
+        "target_time": 1768134836.934571,
+        "start_processing": 1768134836.935006,
+        "end_processing": 1768134836.9389582,
+        "processing_latency": 0.0039522647857666016,
+        "alignment_jitter": 0.0043871402740478516,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 90,
+        "target_time": 1768134838.934571,
+        "start_processing": 1768134838.938292,
+        "end_processing": 1768134838.9395552,
+        "processing_latency": 0.0012631416320800781,
+        "alignment_jitter": 0.004984140396118164,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 91,
+        "target_time": 1768134840.934571,
+        "start_processing": 1768134840.938328,
+        "end_processing": 1768134840.941994,
+        "processing_latency": 0.003665924072265625,
+        "alignment_jitter": 0.007422924041748047,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 92,
+        "target_time": 1768134842.934571,
+        "start_processing": 1768134842.935675,
+        "end_processing": 1768134842.937554,
+        "processing_latency": 0.001878976821899414,
+        "alignment_jitter": 0.0029828548431396484,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 93,
+        "target_time": 1768134844.934571,
+        "start_processing": 1768134844.937589,
+        "end_processing": 1768134844.9401338,
+        "processing_latency": 0.002544879913330078,
+        "alignment_jitter": 0.005562782287597656,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 94,
+        "target_time": 1768134846.934571,
+        "start_processing": 1768134846.9347699,
+        "end_processing": 1768134846.93905,
+        "processing_latency": 0.00428009033203125,
+        "alignment_jitter": 0.004478931427001953,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 95,
+        "target_time": 1768134848.934571,
+        "start_processing": 1768134848.9375749,
+        "end_processing": 1768134848.939716,
+        "processing_latency": 0.002141237258911133,
+        "alignment_jitter": 0.005145072937011719,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 96,
+        "target_time": 1768134850.934571,
+        "start_processing": 1768134850.9396532,
+        "end_processing": 1768134850.941867,
+        "processing_latency": 0.0022139549255371094,
+        "alignment_jitter": 0.007296085357666016,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 97,
+        "target_time": 1768134852.934571,
+        "start_processing": 1768134852.935158,
+        "end_processing": 1768134852.9389849,
+        "processing_latency": 0.0038268566131591797,
+        "alignment_jitter": 0.0044138431549072266,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 98,
+        "target_time": 1768134854.934571,
+        "start_processing": 1768134854.935682,
+        "end_processing": 1768134854.939318,
+        "processing_latency": 0.003635883331298828,
+        "alignment_jitter": 0.004746913909912109,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 99,
+        "target_time": 1768134856.934571,
+        "start_processing": 1768134856.937002,
+        "end_processing": 1768134856.940841,
+        "processing_latency": 0.0038390159606933594,
+        "alignment_jitter": 0.006269931793212891,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 100,
+        "target_time": 1768134858.934571,
+        "start_processing": 1768134858.939591,
+        "end_processing": 1768134858.941443,
+        "processing_latency": 0.0018520355224609375,
+        "alignment_jitter": 0.006871938705444336,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 101,
+        "target_time": 1768134860.934571,
+        "start_processing": 1768134860.936116,
+        "end_processing": 1768134860.9396422,
+        "processing_latency": 0.0035262107849121094,
+        "alignment_jitter": 0.005071163177490234,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 102,
+        "target_time": 1768134862.934571,
+        "start_processing": 1768134862.939717,
+        "end_processing": 1768134862.942445,
+        "processing_latency": 0.002727985382080078,
+        "alignment_jitter": 0.007874011993408203,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 103,
+        "target_time": 1768134864.934571,
+        "start_processing": 1768134864.93913,
+        "end_processing": 1768134864.941932,
+        "processing_latency": 0.0028018951416015625,
+        "alignment_jitter": 0.007360935211181641,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 104,
+        "target_time": 1768134866.934571,
+        "start_processing": 1768134866.93947,
+        "end_processing": 1768134866.941847,
+        "processing_latency": 0.002377033233642578,
+        "alignment_jitter": 0.007276058197021484,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 105,
+        "target_time": 1768134868.934571,
+        "start_processing": 1768134868.93538,
+        "end_processing": 1768134868.9375849,
+        "processing_latency": 0.00220489501953125,
+        "alignment_jitter": 0.0030138492584228516,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 106,
+        "target_time": 1768134870.934571,
+        "start_processing": 1768134870.934977,
+        "end_processing": 1768134870.937312,
+        "processing_latency": 0.0023348331451416016,
+        "alignment_jitter": 0.0027408599853515625,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 107,
+        "target_time": 1768134872.934571,
+        "start_processing": 1768134872.935498,
+        "end_processing": 1768134872.939074,
+        "processing_latency": 0.003576040267944336,
+        "alignment_jitter": 0.004503011703491211,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 108,
+        "target_time": 1768134874.934571,
+        "start_processing": 1768134874.935738,
+        "end_processing": 1768134874.937912,
+        "processing_latency": 0.002173900604248047,
+        "alignment_jitter": 0.0033409595489501953,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 109,
+        "target_time": 1768134876.934571,
+        "start_processing": 1768134876.936259,
+        "end_processing": 1768134876.939779,
+        "processing_latency": 0.0035200119018554688,
+        "alignment_jitter": 0.005208015441894531,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 110,
+        "target_time": 1768134878.934571,
+        "start_processing": 1768134878.93632,
+        "end_processing": 1768134878.939394,
+        "processing_latency": 0.0030739307403564453,
+        "alignment_jitter": 0.004822969436645508,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 111,
+        "target_time": 1768134880.934571,
+        "start_processing": 1768134880.934625,
+        "end_processing": 1768134880.9383109,
+        "processing_latency": 0.0036859512329101562,
+        "alignment_jitter": 0.0037398338317871094,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 112,
+        "target_time": 1768134882.934571,
+        "start_processing": 1768134882.934665,
+        "end_processing": 1768134882.937719,
+        "processing_latency": 0.0030541419982910156,
+        "alignment_jitter": 0.0031480789184570312,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 113,
+        "target_time": 1768134884.934571,
+        "start_processing": 1768134884.936814,
+        "end_processing": 1768134884.940434,
+        "processing_latency": 0.0036199092864990234,
+        "alignment_jitter": 0.0058629512786865234,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 114,
+        "target_time": 1768134886.934571,
+        "start_processing": 1768134886.939599,
+        "end_processing": 1768134886.942841,
+        "processing_latency": 0.003242015838623047,
+        "alignment_jitter": 0.008270025253295898,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 115,
+        "target_time": 1768134888.934571,
+        "start_processing": 1768134888.938543,
+        "end_processing": 1768134888.940165,
+        "processing_latency": 0.0016219615936279297,
+        "alignment_jitter": 0.005594015121459961,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 116,
+        "target_time": 1768134890.934571,
+        "start_processing": 1768134890.938702,
+        "end_processing": 1768134890.940887,
+        "processing_latency": 0.0021848678588867188,
+        "alignment_jitter": 0.006315946578979492,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 117,
+        "target_time": 1768134892.934571,
+        "start_processing": 1768134892.936301,
+        "end_processing": 1768134892.939884,
+        "processing_latency": 0.0035829544067382812,
+        "alignment_jitter": 0.005312919616699219,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 118,
+        "target_time": 1768134894.934571,
+        "start_processing": 1768134894.939591,
+        "end_processing": 1768134894.942074,
+        "processing_latency": 0.0024831295013427734,
+        "alignment_jitter": 0.007503032684326172,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 119,
+        "target_time": 1768134896.934571,
+        "start_processing": 1768134896.937737,
+        "end_processing": 1768134896.940332,
+        "processing_latency": 0.0025949478149414062,
+        "alignment_jitter": 0.005760908126831055,
+        "outcome": "played"
+    },
+    {
+        "chord_idx": 120,
+        "target_time": 1768134898.934571,
+        "start_processing": 1768134898.939593,
+        "end_processing": 1768134898.941982,
+        "processing_latency": 0.0023889541625976562,
+        "alignment_jitter": 0.007411003112792969,
+        "outcome": "played"
+    }
+]

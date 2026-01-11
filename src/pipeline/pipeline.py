@@ -9,6 +9,10 @@
 
 import time
 import threading
+import json
+import datetime
+import os
+from pathlib import Path
 from typing import List, Optional
 
 from src.config import (
@@ -53,6 +57,9 @@ class RealTimePipeline:
         self.empty_bars_count = empty_bars_count
         self.enable_synth = enable_synth
         
+        # Performance Metrics: stores values for latency analysis
+        self.perf_metrics = []
+
         # Conductor
         self.conductor = Conductor(
             initial_bpm=bpm, 
@@ -180,6 +187,10 @@ class RealTimePipeline:
                 
             if not self.is_running: break
 
+
+            # Latency Measurement Start: before prediction
+            t_start_processing = time.time()
+            
             # Prediction (after notes collected)
             candidate_chord = self.predictor.get_next_prediction()
             
@@ -200,6 +211,21 @@ class RealTimePipeline:
                 
             # Schedule final chord
             self.chord_objects.append(final_chord)
+            
+            # Latency Measurement End: after chord is scheduled (for playing)
+            t_end_processing = time.time()
+
+            # Store metrics
+            self.perf_metrics.append({
+                'chord_idx': self.current_chord_idx + 1,
+                'target_time': target_time,
+                'start_processing': t_start_processing,
+                'end_processing': t_end_processing,
+                'processing_latency': t_end_processing - t_start_processing,
+                'alignment_jitter': t_end_processing - target_time,
+                'outcome': 'played'
+            })
+            
             last_chord_time = target_time
             
             # Sync key with predictor
@@ -316,6 +342,20 @@ class RealTimePipeline:
             self.predictor.close()
         except Exception as e:
             logger.error(f"[SYSTEM] Predictor shutdown error: {e}")
+
+        # Save latency metrics to JSON file
+        try:
+            logs_dir = Path("logs")
+            logs_dir.mkdir(exist_ok=True)
+            timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = logs_dir / f"latency_metrics_{timestamp}.json"
+            
+            with open(filename, 'w') as f:
+                json.dump(self.perf_metrics, f, indent=4)
+            
+            logger.info(f"[METRICS] Saved {len(self.perf_metrics)} metrics to {filename}")
+        except Exception as e:
+            logger.error(f"[METRICS] Failed to save metrics: {e}")
 
     # Get the current sequence of chords
     def get_current_sequence(self) -> List[str]:

@@ -1,13 +1,12 @@
+
 import logging
 import sys
 
-# Sets up logger for printing information
-def setup_logger(name: str = "RealTimeAccompaniment") -> logging.Logger:
-
+def setup_logger(name="RealTimeAI", level=logging.INFO):
     logger = logging.getLogger(name)
-    logger.setLevel(logging.INFO)
+    logger.setLevel(level)
     
-    # Check if handlers already exist to avoid duplicates
+    # Check if logger already has handlers to avoid duplicate logs
     if not logger.handlers:
         handler = logging.StreamHandler(sys.stdout)
         formatter = logging.Formatter(
