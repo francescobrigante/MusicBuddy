@@ -3,7 +3,7 @@
 # ==================================================================
 
 import re
-from typing import Tuple, List, Dict
+from typing import Tuple, List, Dict, Optional
 from src.utils.logger import setup_logger
 from src.config import NOTES, FLAT_TO_SHARP, ROMAN_TO_SEMITONE, INTERVAL_TO_ROMAN, MINOR_QUALITIES, DIMINISHED_QUALITIES, SUFFIX_MAP
 
@@ -215,16 +215,18 @@ def format_distribution(dist_items: List[Tuple[str, float]], key: str) -> str:
     return ", ".join(formatted)
 
 # Returns (System Key, Root, Quality) given user input
-def get_starting_chord(default_key: str):
-    prompt = f"Enter Starting Chord (e.g. C, Am, G7, Bbmaj7) [default {default_key}]: "
-    
-    try:
-        user_input = input(prompt).strip()
-        print()
-    except EOFError:
-        logger.info("[ERROR] Starting chord not recognized, using default C.")
-        user_input = ""
-    
+# If user_input is None, asks for it interactively
+def get_starting_chord(default_key: str, user_input: Optional[str] = None):
+    if user_input is None:
+        prompt = f"Enter Starting Chord (e.g. C, Am, G7, Bbmaj7) [default {default_key}]: "
+        try:
+            user_input = input(prompt)
+            print()
+        except EOFError:
+            logger.info("[ERROR] Starting chord not recognized, using default C.")
+            user_input = ""
+    user_input = user_input.strip()
+
     if not user_input:
         return default_key, default_key, 'major' # System Key, Root, Quality
         

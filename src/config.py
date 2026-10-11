@@ -49,6 +49,8 @@ NUM_WORKERS = 2
 DEFAULT_BPM = 120
 DEFAULT_BEATS_PER_BAR = 4.0
 DEFAULT_MAX_SEQUENCE_LENGTH = 10
+DEFAULT_KEY = 'C'                   # Key used when no starting chord is given
+SESSION_MAX_CHORDS = 2000000        # Chords per session in main.py (effectively unlimited, stop with Ctrl+C)
 
 DELAY_START_SECONDS = 2.0   # Number of seconds to wait before starting the pipeline
 EMPTY_BARS_COUNT = 1        # Number of empty bars to play before starting the pipeline

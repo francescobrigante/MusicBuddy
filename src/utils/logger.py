@@ -2,7 +2,7 @@
 import logging
 import sys
 
-def setup_logger(name="RealTimeAI", level=logging.INFO):
+def setup_logger(name="MusicBuddy", level=logging.INFO):
     logger = logging.getLogger(name)
     logger.setLevel(level)
     

@@ -1,4 +1,16 @@
+# Python and environments
+.venv/
 __pycache__/
-data/
+*.pyc
+.pytest_cache/
+.env
 .DS_Store
-# *.md
+
+# Data, trained weights and soundfonts (see docs/training.md and docs/midi_setup.md)
+data/
+*.pth
+*.pkl
+*.sf2
+
+# Latency metrics written by every run
+logs/

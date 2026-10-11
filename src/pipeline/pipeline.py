@@ -1,5 +1,5 @@
 # ==================================================================================================================
-# Real-Time Accompaniment Pipeline
+# MusicBuddy Real-Time Accompaniment Pipeline
 # ==================================================================================================================
 # Orchestrates the real-time accompaniment pipeline
 # Contains timing thread which is the main thread for prediction and timing alignment
@@ -18,7 +18,7 @@ from typing import List, Optional
 from src.config import (
     OUTPUT_PORT, DELAY_START_SECONDS, EMPTY_BARS_COUNT,
     DEFAULT_BPM, DEFAULT_BEATS_PER_BAR, WINDOW_SIZE, 
-    DEFAULT_MAX_SEQUENCE_LENGTH, CHORDS_TO_PRECOMPUTE
+    DEFAULT_MAX_SEQUENCE_LENGTH, CHORDS_TO_PRECOMPUTE, DEFAULT_SOUNDFONT
 )
 from src.utils.logger import setup_logger
 from src.utils.music_theory import compact_chord, chord_to_roman
@@ -41,7 +41,8 @@ class RealTimePipeline:
                  max_sequence_length: int = DEFAULT_MAX_SEQUENCE_LENGTH, output_port: str = OUTPUT_PORT, 
                  input_port: Optional[str] = None, enable_input_listener: bool = False, 
                  enable_metronome: bool = True, empty_bars_count: int = EMPTY_BARS_COUNT,
-                 enable_synth: bool = True, enable_dynamic_bpm: bool = True):
+                 enable_synth: bool = True, enable_dynamic_bpm: bool = True,
+                 soundfont_path: str = DEFAULT_SOUNDFONT):
         
         # Configuration
         self.key = key
@@ -56,6 +57,7 @@ class RealTimePipeline:
         self.enable_dynamic_bpm = enable_dynamic_bpm
         self.empty_bars_count = empty_bars_count
         self.enable_synth = enable_synth
+        self.soundfont_path = soundfont_path
         
         # Performance Metrics: stores values for latency analysis
         self.perf_metrics = []
@@ -82,7 +84,7 @@ class RealTimePipeline:
         if self.enable_synth and self.output_port:
             try:
                 # Synth listener monitors the output port (loopback)
-                self.synth, self.synth_listener = create_playback_synth(midi_port_name=self.output_port)
+                self.synth, self.synth_listener = create_playback_synth(midi_port_name=self.output_port, soundfont_path=self.soundfont_path)
                 logger.info(f"[SYNTH] FluidSynth initialized on {self.output_port}")
             except Exception as e:
                 logger.error(f"[SYNTH] Failed to initialize FluidSynth: {e}")
@@ -98,12 +100,15 @@ class RealTimePipeline:
             self.midi_listener = None
         
         # Metronome (receives conductor)
-        self.metronome = Metronome(
-            self.bpm, 
-            self.beats_per_bar, 
-            self.empty_bars_count,
-            conductor=self.conductor
-        )
+        self.metronome = None
+        if self.enable_metronome:
+            self.metronome = Metronome(
+                self.bpm, 
+                self.beats_per_bar, 
+                self.empty_bars_count,
+                soundfont_path=self.soundfont_path,
+                conductor=self.conductor
+            )
         
         self.metronome_thread = None
         self.timing_thread = None

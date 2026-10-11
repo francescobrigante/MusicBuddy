@@ -31,7 +31,7 @@ class AIHarmonyRules:
         
         # Load vocab
         if not os.path.exists(VOCAB_PATH):
-            raise FileNotFoundError(f"Vocabulary not found at {VOCAB_PATH}. Run training first.")
+            raise FileNotFoundError(f"Vocabulary not found at {VOCAB_PATH}. Build it and train the model first: see docs/training.md")
             
         with open(VOCAB_PATH, 'rb') as f:
             data = pickle.load(f)
@@ -42,7 +42,7 @@ class AIHarmonyRules:
         
         # Load model
         if not os.path.exists(MODEL_PATH):
-            raise FileNotFoundError(f"Model not found at {MODEL_PATH}. Run training first.")
+            raise FileNotFoundError(f"Model not found at {MODEL_PATH}. Train it first: see docs/training.md")
             
         self.model = ChordLSTM(self.vocab_size, EMBEDDING_DIM, HIDDEN_SIZE, NUM_LAYERS, DROPOUT, padding_idx=PAD_IDX)
         
